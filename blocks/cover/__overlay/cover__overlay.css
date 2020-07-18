@@ -1,7 +1,7 @@
 .cover__overlay {
   max-width: 100%;
   min-height: 740px;
-  background: rgb(0,0,0, 0.3);
+  background: rgba(42, 44, 46, .3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .cover__overlay:hover {
-  background: rgb(0,0,0, 0.8);
+  background:  rgba(42, 44, 46, .8);
 }
 
 @media screen and (max-width: 1024px) {
