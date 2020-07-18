@@ -1,0 +1,22 @@
+.footer__link {
+  margin-right: 18px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 426px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 32px;
+  }
+  .footer__link:last-of-type {
+    margin-bottom: 48px;
+  }
+
+
+}

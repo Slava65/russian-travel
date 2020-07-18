@@ -1,0 +1,7 @@
+.header__lang-link-status_selected {
+  text-decoration: none;
+}
+
+.header__lang-link-status_selected:active {
+  text-decoration: underline;
+}
