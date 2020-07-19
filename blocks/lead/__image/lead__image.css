@@ -2,6 +2,7 @@
   margin: 0 auto 8px;
   max-width: calc(100% - 296px);
   height: 615px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +21,6 @@
 
 @media screen and (max-width: 426px) {
   .lead__image {
-    max-width: 100%;
     height: 265px;
   }
 }

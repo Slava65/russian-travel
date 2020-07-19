@@ -15,6 +15,13 @@
   }
 }
 
+@media screen and (max-width: 779px) {
+  .places {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .places {
     margin-right: 24px;
@@ -22,10 +29,11 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 427px) {
   .places {
     margin-right: 0;
     margin-left: 0;
     grid-row-gap: 48px;
   }
 }
+
