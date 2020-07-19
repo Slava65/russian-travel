@@ -26,19 +26,14 @@
   .places {
     margin-right: 24px;
     margin-left: 24px;
+    grid-row-gap: 72px;
   }
 }
 
-@media screen and (max-width: 427px) {
+@media screen and (max-width: 425px) {
   .places {
     margin-right: 0;
     margin-left: 0;
     grid-row-gap: 48px;
   }
-}
-
-@media screen and (max-width: 373px) {
-  .places {
-  width: 100%;
-}
 }
