@@ -1,6 +1,5 @@
 .footer {
   max-width: calc(100% - 96px);
-  height: 18px;
   margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 24px;
@@ -11,15 +10,14 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
     padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 609px) {
   .footer {
-    width: 248px;
-    height: 310px;
+    max-width: 248px;
     margin: 0;
     padding: 64px calc(100% - 264px) 24px 16px;
     flex-direction: column;

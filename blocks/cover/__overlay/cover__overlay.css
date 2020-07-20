@@ -12,6 +12,7 @@
 
 .cover__overlay:hover {
   background:  rgba(42, 44, 47, .8);
+  transition: opacity 2s, 1s;
 }
 
 @media screen and (max-width: 1024px) {

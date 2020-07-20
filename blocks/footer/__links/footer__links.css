@@ -9,10 +9,10 @@
 
 @media screen and (max-width: 609px) {
   .footer__links {
-    min-height: 248px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 32px;
     margin-bottom: 48px;
   }
 }

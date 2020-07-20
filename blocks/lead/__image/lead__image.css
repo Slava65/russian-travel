@@ -24,3 +24,9 @@
     height: 265px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    height: 185px;
+  }
+}
